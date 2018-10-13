@@ -1,0 +1,8 @@
+
+functions/node_modules/**/*
+
+functions/firebase-debug\.log
+
+functions/package-lock\.json
+
+functions/to-do-app-api-firebase-adminsdk-t5bbj-cf9bdec6c5\.json
