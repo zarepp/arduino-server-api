@@ -12,7 +12,8 @@
     "express": "^4.16.3",
     "firebase-admin": "~6.0.0",
     "firebase-functions": "^2.0.3",
-    "joi": "^13.1.0"
+    "joi": "^13.1.0",
+    "request": "^2.88.0"
   },
   "private": true
 }
