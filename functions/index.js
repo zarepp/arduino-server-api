@@ -5,7 +5,8 @@ const express = require('express');
 // Routes
 const routesCoursesApi = require('./src/routes/api/courses');
 const routesNotesApi = require('./src/routes/api/notes');
-const routesTemperatureApi = require('./src/routes/api/temperature')
+const routesTemperaturesApi = require('./src/routes/api/temperature');
+const routesUserApi = require('./src/routes/api/user');
 
 // Authorization
 const admin = require("firebase-admin");
@@ -25,7 +26,8 @@ app.get('/home', (req, res) => {
 });
 app.use('/api', routesCoursesApi);
 app.use('/api', routesNotesApi);
-app.use('/api', routesTemperatureApi);
+app.use('/api', routesTemperaturesApi);
+app.use('/api', routesUserApi)
 
 // App listen or serve
 app.listen(3000, () => console.log('Listening on port 3000'));
