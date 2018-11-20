@@ -30,6 +30,6 @@ app.use('/api', routesTemperaturesApi);
 app.use('/api', routesUserApi)
 
 // App listen or serve
-app.listen(3000, () => console.log('Listening on port 3000'));
+// app.listen(3000, () => console.log('Listening on port 3000'));
 
 exports.app = functions.https.onRequest(app);
